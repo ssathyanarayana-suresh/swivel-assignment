@@ -34,5 +34,5 @@ Running Multiple Browsers + Parallel Together:
         npm install cypress-parallel --save-dev
 
 To run tests in parallel:
-npx cypress run --browser chrome --parallel
-npx cypress run --browser firefox --parallel
+    * npx cypress run --browser chrome --parallel
+    * npx cypress run --browser firefox --parallel
