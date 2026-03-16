@@ -14,8 +14,8 @@ Cypress installtion instructions on Windows and Mac:
 
 3. Install Cypress 
     * Install Cypress: Inside your project folder, run the following command to install Cypress and add it as a development dependency:
-        npm init -y
-        npm install cypress --save-dev
+        * npm init -y
+        * npm install cypress --save-dev
 
 4. Launch Cypress 
     * Open Cypress: Once the installation is complete, run the following command to launch the Cypress application:
@@ -33,6 +33,6 @@ Running Multiple Browsers + Parallel Together:
     * First install:
         npm install cypress-parallel --save-dev
 
-To run tests in parallel:
+8. To run tests in parallel:
     * npx cypress run --browser chrome --parallel
     * npx cypress run --browser firefox --parallel
